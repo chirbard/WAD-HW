@@ -1,0 +1,30 @@
+.index-content {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin: 1rem 0;
+}
+
+.sidebar {
+    width: 100px;
+    height: auto;
+    background: #bbb;
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    .sidebar {
+        display: none;
+    }
+
+    .index-content {
+        justify-content: center;
+    }
+}
+
+.post {
+    width: 360px;
+    background: #bbb;
+}

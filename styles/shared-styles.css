@@ -1,0 +1,35 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background: #bbb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 2rem;
+}
+
+header a {
+    color: #000;
+}
+
+header a:hover {
+    color: #2a20e5;
+}
+
+footer {
+    background: #bbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
