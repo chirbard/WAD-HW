@@ -23,7 +23,8 @@ header a {
 }
 
 header a:hover {
-    color: #2a20e5;
+    color: #fff;
+    background-color: #16adcb;
 }
 
 footer {
