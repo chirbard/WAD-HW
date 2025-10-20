@@ -1,9 +1,9 @@
 {
     "posts":[
-        {"uploaded":"Sep 30, 2025", "author":"", picture:"", text:"Two ducks chilling on a tree branch"},
-        {"uploaded":"Sep 29, 2025", "author":"", text:"Anyone going to the lecture today?"},
-        {"uploaded":"Sep 27, 2025", "author":"", picture:"", text:"It's way too crowded here"},
-        {"uploaded":"Sep 24, 2025", "author":"", picture:"", text:"Hi me in 10 years"},
-        {"uploaded":"Sep 21, 2025", "author":"", text:"Man the moodle test was way too difficult."}
+        {"uploaded":"Sep 30, 2025", "author":"", "picture":"", "text":"Two ducks chilling on a tree branch"},
+        {"uploaded":"Sep 29, 2025", "author":"", "text":"Anyone going to the lecture today?"},
+        {"uploaded":"Sep 27, 2025", "author":"", "picture":"", "text":"It's way too crowded here"},
+        {"uploaded":"Sep 24, 2025", "author":"", "picture":"", "text":"Hi me in 10 years"},
+        {"uploaded":"Sep 21, 2025", "author":"", "text":"Man the moodle test was way too difficult."}
     ]
 }
