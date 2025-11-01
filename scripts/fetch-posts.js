@@ -15,7 +15,7 @@ async function loadPostsFromOnline() {
 
 async function loadPostsFromLocal() {
   try {
-    const response = await fetch("json/db.json");
+    const response = await fetch("db.json");
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
