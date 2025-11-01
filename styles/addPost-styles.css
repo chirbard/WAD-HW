@@ -1,44 +1,44 @@
 .add-post-content {
-    flex: 1;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0;
 }
 
 .add-post-card {
-    width: 360px;
-    background: #bbb;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    gap: 0.3rem;
-    padding: 1rem;
+  width: 360px;
+  background: #bbb;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 1rem;
 }
 
 #addPostForm {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 #addPostForm > .post-body {
-    display: flex;
-    flex-direction: row;
-    justify-content: start;
-    gap: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  gap: 1rem;
 }
 
 label + textarea {
-    min-height: 120px;
+  min-height: 120px;
 }
 
 label ~ input {
-    display: none;
+  display: none;
 }
 
 .custom-file-upload {

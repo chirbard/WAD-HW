@@ -1,95 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <link rel="stylesheet" href="styles/shared-styles.css">
-    <link rel="stylesheet" href="styles/index-styles.css">
+    <link rel="stylesheet" href="styles/shared-styles.css" />
+    <link rel="stylesheet" href="styles/index-styles.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
-</head>
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <header class="header">
-            <div class="navigation-links">
-                <a href="index.html" class="nav-link active">Home</a>
-                <span class="nav-separator">|</span>
-                <a href="addPost.html" class="nav-link">addPost</a>
-            </div>
-            <a href="login.html"><img src="img/defaultPfp.jpg" width=50></a>
-        </header>
-
-        <div class="index-content">
-            <div class="sidebar"></div>
-            <div class="posts-container">
-                <div class="post">
-                    <div class="post-title-row">
-                        <img src="img/defaultPfp.jpg" width=40>
-                        <p>Sep 30, 2025</p>
-                    </div>
-
-                    <img src="img/2ducks.jpg" width=300>
-                    <p>Two ducks chilling on a tree branch</p>
-                    <img src="img/like.jpg" width=40>
-
-                </div>
-
-                <div class="post">
-                    <div class="post-title-row">
-                        <img src="img/defaultPfp.jpg" width=40>
-                        <p>Sep 29, 2025</p>
-                    </div>
-
-                    <p>Anyone going to the lecture today?</p>
-                    <img src="img/like.jpg" width=40>
-                </div>
-
-                <div class="post">
-                    <div class="post-title-row">
-                        <img src="img/defaultPfp.jpg" width=40>
-                        <p>Sep 27, 2025</p>
-                    </div>
-
-                    <img src="img/monalisacrowd.jpg" width=300>
-                    <p>It's way too crowded here</p>
-                    <img src="img/like.jpg" width=40>
-                </div>
-
-                <div class="post">
-                    <div class="post-title-row">
-                        <img src="img/defaultPfp.jpg" width=40>
-                        <p>Sep 24, 2025</p>
-                    </div>
-
-                    <img src="img/mrbeast.png" width=300>
-                    <p>Hi me in 10 years</p>
-                    <img src="img/like.jpg" width=40>
-                </div>
-
-                <div class="post">
-                    <div class="post-title-row">
-                        <img src="img/defaultPfp.jpg" width=40>
-                        <p>Sep 21, 2025</p>
-                    </div>
-
-                    <p>Man the moodle test was way too difficult.</p>
-                    <img src="img/like.jpg" width=40>
-                </div>
-            </div>
-            <div class="sidebar"></div>
+      <header class="header">
+        <div class="navigation-links">
+          <a href="index.html" class="nav-link active">Home</a>
+          <span class="nav-separator">|</span>
+          <a href="addPost.html" class="nav-link">addPost</a>
         </div>
+        <div class="profile-container">
+          <img src="img/defaultPfp.jpg" width="50" />
+          <div class="profile-dropdown">
+            <p>John Doe</p>
+            <p>john.doe@ut.ee</p>
+            <p><a href="login.html">logout</a></p>
+          </div>
+        </div>
+      </header>
 
-        <footer class="footer">
-            <p>Footer</p>
-        </footer>
+      <div class="index-content">
+        <div class="sidebar"></div>
+        <div class="posts-container">
+          <!-- Posts will be dynamically loaded here -->
+        </div>
+        <div class="sidebar"></div>
+      </div>
+
+      <footer class="footer">
+        <p>Footer</p>
+      </footer>
     </div>
-</body>
 
+    <script src="scripts/fetch-posts.js"></script>
+    <script src="scripts/profile-dropdown.js"></script>
+  </body>
 </html>

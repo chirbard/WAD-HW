@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "author": "Alex Johnson",
+      "authorAvatar": "img/defaultPfp.jpg",
+      "displayDate": "Oct 30, 2025",
+      "text": "Two ducks chilling on a tree branch",
+      "image": "img/2ducks.jpg"
+    },
+    {
+      "id": 2,
+      "author": "Sarah Chen",
+      "authorAvatar": "img/defaultPfp.jpg",
+      "displayDate": "Oct 29, 2025",
+      "text": "Anyone going to the lecture today?"
+    },
+    {
+      "id": 3,
+      "author": "Mike Rodriguez",
+      "authorAvatar": "img/defaultPfp.jpg",
+      "displayDate": "Oct 27, 2025",
+      "text": "It's way too crowded here",
+      "image": "img/monalisacrowd.jpg"
+    },
+    {
+      "id": 4,
+      "author": "Emma Davis",
+      "authorAvatar": "img/defaultPfp.jpg",
+      "displayDate": "Oct 24, 2025",
+      "text": "Hi me in 10 years",
+      "image": "img/mrbeast.png"
+    },
+    {
+      "id": 5,
+      "author": "John Smith",
+      "authorAvatar": "img/defaultPfp.jpg",
+      "displayDate": "Oct 21, 2025",
+      "text": "Man the moodle test was way too difficult."
+    }
+  ]
+}
