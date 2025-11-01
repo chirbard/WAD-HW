@@ -1,6 +1,8 @@
 async function loadPostsFromOnline() {
   try {
-    const response = await fetch("");
+    const response = await fetch(
+      "https://my-json-server.typicode.com/chirbard/WAD-HW/db"
+    );
 
     if (!response.ok) {
       throw new Error(`HTTP error! status: ${response.status}`);
@@ -71,7 +73,7 @@ function renderPosts(posts) {
 
 async function loadPosts() {
   // Task 4: Fetch from online endpoint (commented out for Task 5)
-  // const posts = await loadPostsFromOnline();
+  //   const posts = await loadPostsFromOnline();
 
   // Task 5: Use local JSON file
   const posts = await loadPostsFromLocal();
