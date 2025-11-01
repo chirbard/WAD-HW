@@ -33,7 +33,7 @@
 
       <div class="add-post-content">
         <div class="add-post-card">
-          <form id="addPostForm" class="add-post-form" action="index.html">
+          <form id="addPostForm" class="add-post-form">
             <div class="post-body">
               <label for="postBody">Post body</label>
               <textarea
@@ -58,7 +58,13 @@
               />
             </div>
 
-            <button type="submit" class="btn-primary">Create post</button>
+            <button
+              type="button"
+              class="btn-primary"
+              onclick="location.href='index.html'"
+            >
+              Create post
+            </button>
           </form>
         </div>
       </div>
