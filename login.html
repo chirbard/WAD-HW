@@ -39,12 +39,7 @@
           <p>or</p>
           <p>Please log in</p>
 
-          <form
-            id="loginForm"
-            class="login-form"
-            action="index.html"
-            method="POST"
-          >
+          <form id="loginForm" class="login-form" action="index.html">
             <div class="form-group">
               <input
                 type="email"
@@ -65,7 +60,13 @@
               />
             </div>
 
-            <button type="submit" class="btn-primary">Log in</button>
+            <button
+              type="button"
+              class="btn-primary"
+              onclick="location.href='index.html'"
+            >
+              Log in
+            </button>
           </form>
 
           <p><span>Forget password</span></p>
