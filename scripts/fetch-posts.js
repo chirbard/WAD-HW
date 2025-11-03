@@ -36,33 +36,42 @@ function renderPosts(posts) {
     const postDiv = document.createElement("div");
     postDiv.className = "post";
 
+    const postHeader = document.createElement("img");
+    postHeader.className = "post-header";
+
     const authorImg = document.createElement("img");
     authorImg.src = post.authorAvatar || "img/defaultPfp.jpg";
     authorImg.alt = `${post.author}'s avatar`;
     authorImg.className = "avatar";
-    postDiv.appendChild(authorImg);
+    postHeader.appendChild(authorImg);
+
+    const postMeta = document.createElement("div");
+    postMeta.className = "meta"
 
     const authorName = document.createElement("p");
     authorName.innerText = post.author;
-	authorName.className "author"
-    postDiv.appendChild(authorName);
+    authorName.className "author"
+    postMeta.appendChild(authorName);
 
     const postDate = document.createElement("p");
     postDate.innerText = post.displayDate;
-	postDate.className = "date"
-    postDiv.appendChild(postDate);
+    postDate.className = "date"
+    postMeta.appendChild(postDate);
+
+    postHeader.appendChild(postMeta);
+    postDiv.appendChild(postHeader);
 
     const postImage = document.createElement("img");
     if (post.image) {
       postImage.src = post.image;
       postImage.alt = "Post image";
-	  postImage.className = "image"
+      postImage.className = "image"
       postDiv.appendChild(postImage);
     }
 
     const postText = document.createElement("p");
     postText.innerText = post.text;
-	postText.className = "text-content"
+    postText.className = "text-content"
     postDiv.appendChild(postText);
 
     const likeImage = document.createElement("img");

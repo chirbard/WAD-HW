@@ -31,15 +31,29 @@
   padding: 4px;
 }
 
-.post img {
-  width: 100%;
-  height: auto;
+.post .post-header {
+  display: flex;
+  flex-direction: row;
+}
+
+.post .meta {
+  margin-left: 8px;
+}
+
+.post .author, .post .date {
+  margin: 0;
+  padding: 0;
 }
 
 .post .avatar {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+}
+
+.post img {
+  width: 100%;
+  height: auto;
 }
 
 .post .like-button {
