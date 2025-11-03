@@ -36,7 +36,7 @@ function renderPosts(posts) {
     const postDiv = document.createElement("div");
     postDiv.className = "post";
 
-    const postHeader = document.createElement("img");
+    const postHeader = document.createElement("div");
     postHeader.className = "post-header";
 
     const authorImg = document.createElement("img");
