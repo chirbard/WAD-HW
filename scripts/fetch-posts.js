@@ -46,16 +46,16 @@ function renderPosts(posts) {
     postHeader.appendChild(authorImg);
 
     const postMeta = document.createElement("div");
-    postMeta.className = "meta"
+    postMeta.className = "meta";
 
     const authorName = document.createElement("p");
     authorName.innerText = post.author;
-    authorName.className "author"
+    authorName.className = "author";
     postMeta.appendChild(authorName);
 
     const postDate = document.createElement("p");
     postDate.innerText = post.displayDate;
-    postDate.className = "date"
+    postDate.className = "date";
     postMeta.appendChild(postDate);
 
     postHeader.appendChild(postMeta);
@@ -65,13 +65,13 @@ function renderPosts(posts) {
     if (post.image) {
       postImage.src = post.image;
       postImage.alt = "Post image";
-      postImage.className = "image"
+      postImage.className = "image";
       postDiv.appendChild(postImage);
     }
 
     const postText = document.createElement("p");
     postText.innerText = post.text;
-    postText.className = "text-content"
+    postText.className = "text-content";
     postDiv.appendChild(postText);
 
     const likeImage = document.createElement("img");
