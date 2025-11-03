@@ -44,21 +44,25 @@ function renderPosts(posts) {
 
     const authorName = document.createElement("p");
     authorName.innerText = post.author;
+	authorName.className "author"
     postDiv.appendChild(authorName);
 
     const postDate = document.createElement("p");
     postDate.innerText = post.displayDate;
+	postDate.className = "date"
     postDiv.appendChild(postDate);
 
     const postImage = document.createElement("img");
     if (post.image) {
       postImage.src = post.image;
       postImage.alt = "Post image";
+	  postImage.className = "image"
       postDiv.appendChild(postImage);
     }
 
     const postText = document.createElement("p");
     postText.innerText = post.text;
+	postText.className = "text-content"
     postDiv.appendChild(postText);
 
     const likeImage = document.createElement("img");
